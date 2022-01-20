@@ -11,22 +11,38 @@
 
 
 	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@400;800;900&family=Ubuntu&display=swap"
+		rel="stylesheet">
 	<!-- <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
 	    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700' rel='stylesheet' type='text/css'> -->
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600' rel='stylesheet' type='text/css'>
 
+
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/owl.transitions.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/fonts/carlito/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
 	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 	<style>
 		/* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 		@media (min-width: 1281px) {
+		.centertest1
+	{
+	}
 			#movelogo {
 				position: relative;
 				top: 0px;
@@ -43,6 +59,9 @@
   ##Screen = B/w 1025px to 1280px
 */
 		@media (min-width: 1025px) and (max-width: 1280px) {
+		.centertest1
+	{
+	}
 			#movelogo {
 				position: relative;
 				top: 0px;
@@ -59,6 +78,9 @@
   ##Screen = B/w 768px to 1024px
 */
 		@media (min-width: 768px) and (max-width: 1024px) {
+		.centertest1
+	{
+	}
 			#movelogo {
 				font-size: 20px;
 				position: relative;
@@ -70,11 +92,34 @@
 			}
 		}
 
+		@media only screen and (max-width: 992px) {
+			.isotope {
+				display: flex;
+				flex-direction: row;
+				justify-content: center !important;
+				align-items: center !important;
+				padding-left: 15px;
+			}
+			.element-item {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				margin-bottom: 15px;
+			}
+			.element-item img {
+				width: 100%;
+			}
+		}
+
 		/* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 		@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+		.centertest1
+	{
+	}
 			#movelogo {
 				font-size: 20px;
 				position: relative;
@@ -91,6 +136,11 @@
   ##Screen = B/w 481px to 767px
 */
 		@media (min-width: 481px) and (max-width: 767px) {
+		.centertest1
+	{
+	position:relative;
+	left:165px;
+	}
 			#bannertest {
 				position: relative;
 				bottom: 15px;
@@ -113,6 +163,11 @@
   ##Screen = B/w 320px to 479px
 */
 		@media (min-width: 320px) and (max-width: 480px) {
+		.centertest1
+	{
+	position:relative;
+	left:60px;
+	}
 			#bannertest {
 				position: relative;
 				bottom: 15px;
@@ -132,45 +187,44 @@
 	</style>
 </head>
 
-<body class="bg-color">
+<body class="bg-color" style="overflow-x:hidden;">
 	<section class="navs">
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-						data-target="#bs-example-navbar-collapse-1">
+						data-target="#bs-example-navbar-collapse-1" style="border-color:#46a1b4;">
 						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+						<span class="icon-bar" style="background-color:#FFFFFF;"></span>
+						<span class="icon-bar" style="background-color:#FFFFFF;"></span>
+						<span class="icon-bar" style="background-color:#FFFFFF;"></span>
 					</button>
 					<a class="navbar-brand logo" id="movelogo" href="#">
-	      					<span><img src="assets/img/clinicactuallogo.png" class="actuallogo"></span>
-	      				</a>
-	    			</div>
-		
-		    		<!-- Collect the nav links, forms, and other content for toggling -->
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				    	<ul class="nav navbar-nav navbar-right">
-					        <li><a href="index.html">Home</a></li>
-							<li><a href="aboutus.html">About Us</a></li>
-							<li><a href="doctors.html">My Profile</a></li>
-					        <li><a href="services.html">Services</a></li>
-					        <!--<li><a href="blog.html">Blog</a></li> -->
-							<li class="active"><a href="#">Gallery</a></li>
-							<!--<li><a href="faq.html">FAQs</a></li> -->
-							<li><a href="patientstories.html">Patient Stories</a></li>
-							<li><a href="testimonials.html">Testimonials</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-				      	</ul>
+                    <span><img src="assets/img/A.png" class="actuallogo"></span>
+                </a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.php">Home</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="doctors.html">My Profile</a></li>
+						<li><a href="services.html">Services</a></li>
+						<!--<li><a href="blog.html">Blog</a></li> -->
+						<li class="active"><a href="#">Gallery</a></li>
+						<!--<li><a href="faq.html">FAQs</a></li> -->
+						<li><a href="patientstories.html">Patient Stories</a></li>
+						<li><a href="testimonials.php">Testimonials</a></li>
+						<li><a href="contact.php">Contact Us</a></li>
+					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
 	</section>
 
-	<section class="gallery-title text-center" id="bannertest">
+	<!--<section class="gallery-title text-center" id="bannertest">
 		<div class="gallery-wrapper">
 			<div class="container">
 				<div class="row">
@@ -181,13 +235,60 @@
 				<div class="row">
 					<div class="sub-headline">
 						<!--<p>Lorem ipsum dolor sit amet, consectetur </p>-->
-					</div>
+	<!--</div>
 				</div>
 			</div>
 		</div>
+	</section>-->
+	<!--<section class="header">
+		<div class="container" style="padding-top:55px ">
+			<div class="row" style="margin: 40px;">
+				<div class="col-sm-2">
+					<div style="display: flex; ">
+						<img style="border-radius: 100%; width: 120px; min-height: 100px;" src="assets/img/clinicactuallogo.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-sm-10">
+					<div class="row text-center header-all">
+						<div class="service-icon text-center header-text">
+							Bangalore Hip & Knee Clinic
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>-->
+<br/>
+<br/>
+	<section class="header fixed-header">
+			<div class="container">
+				<div class="row"  style="margin: 5px 40px;">
+					<div class="col-sm-2">
+						<div style="display: flex; ">
+							<img style="border-radius: 100%; width: 120px; min-height: 100px;" class="centertest1" src="assets/img/clinicactuallogo.png" alt="">
+						</div>
+					</div>
+
+					<div class="col-sm-10">
+						<div class="row text-center header-all">
+							<div class="service-icon text-center header-text">
+								<h2 style="text-decoration:none;color:white;">Bangalore Hip and Knee Clinic</h2>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
 	</section>
 
 	<section class="gallery-content">
+<h2 style="text-decoration:underline;color:yellow;text-align:center; margin: 50px auto 100px auto">Gallery</h2>
 		<div class="container">
 			<div class="row port">
 				<div class="col-md-8 col-md-offset-2 text-center button-group d-flex justify-content-center"
@@ -217,7 +318,8 @@
 									Lorem ipsum dolor porro non delectus cupiditate a!
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item care" data-category="care">
 						<img class="img-responsive center-block" src="assets/img/care2.jpg" alt="Image">
@@ -230,7 +332,8 @@
 									Lorem ipsum dolor sit natus beatae nobis temporibus sint
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item care" data-category="care">
 						<img class="img-responsive center-block" src="assets/img/care3.jpg" alt="Image">
@@ -243,7 +346,8 @@
 									qui nihil ducimus nobis quidem sed a Sint, dolore.
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/1.jpg" alt="Image">
@@ -256,7 +360,8 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/2.jpg" alt="Image">
@@ -269,7 +374,8 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/3.jpg" alt="Image">
@@ -282,7 +388,8 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/4.jpg" alt="Image">
@@ -295,7 +402,8 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/5.jpg" alt="Image">
@@ -308,7 +416,8 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/6.jpg" alt="Image">
@@ -321,14 +430,16 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/7.jpg" alt="Image">
 						<div class="item-desc hidden-xs">
 							<div class="item-tags">
 								<p>
-									Receiving Arthroscopy & Sports Medicine Fellowship Certificate from Dr. S.R. Sundararajan
+									Receiving Arthroscopy & Sports Medicine Fellowship Certificate from Dr. S.R.
+									Sundararajan
 								</p>
 							</div>
 						</div><!-- /.item-desc -->
@@ -344,14 +455,15 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/9.jpg" alt="Image">
 						<div class="item-desc hidden-xs">
 							<div class="item-tags">
 								<p>
-							Receiving Joint Replacement Fellowship Certificate from Dr.( Prof)  S. Rajasekaran
+									Receiving Joint Replacement Fellowship Certificate from Dr.( Prof) S. Rajasekaran
 								</p>
 							</div>
 						</div><!-- /.item-desc -->
@@ -361,7 +473,7 @@
 						<div class="item-desc hidden-xs">
 							<div class="item-tags">
 								<p>
-							Receiving Joint Replacement Fellowship Certificate from Dr. P. Dhanashekara Raja
+									Receiving Joint Replacement Fellowship Certificate from Dr. P. Dhanashekara Raja
 								</p>
 							</div>
 						</div><!-- /.item-desc -->
@@ -377,7 +489,8 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/12.jpg" alt="Image">
@@ -390,7 +503,8 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/13.jpg" alt="Image">
@@ -403,7 +517,8 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/14.jpg" alt="Image">
@@ -416,14 +531,15 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/15.jpg" alt="Image">
 						<div class="item-desc hidden-xs">
 							<div class="item-tags">
 								<p>
-							Receiving 2018 ROC Best Paper Award from Dr. Amar S. Ranawat
+									Receiving 2018 ROC Best Paper Award from Dr. Amar S. Ranawat
 								</p>
 							</div>
 						</div><!-- /.item-desc -->
@@ -439,14 +555,16 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/17.jpg" alt="Image">
 						<div class="item-desc hidden-xs">
 							<div class="item-tags">
 								<p>
-									 With the Legendary Dr.Chitranjan S. Ranawat & my mentor Dr. P. Dhanashekara Raja after  receiving 2018 ROC Best Paper Award
+									With the Legendary Dr.Chitranjan S. Ranawat & my mentor Dr. P. Dhanashekara Raja
+									after receiving 2018 ROC Best Paper Award
 								</p>
 							</div>
 						</div><!-- /.item-desc -->
@@ -462,7 +580,8 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/19.jpg" alt="Image">
@@ -475,14 +594,15 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/20.jpg" alt="Image">
 						<div class="item-desc hidden-xs">
 							<div class="item-tags">
 								<p>
-						Paper presentation at the Indian Society of Hip & Knee Surgeons (ISHKS) 2019 meet	
+									Paper presentation at the Indian Society of Hip & Knee Surgeons (ISHKS) 2019 meet
 								</p>
 							</div>
 						</div><!-- /.item-desc -->
@@ -498,14 +618,15 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item treatment" data-category="treatment">
 						<img class="img-responsive center-block" src="assets/img/22.jpg" alt="Image">
 						<div class="item-desc hidden-xs">
 							<div class="item-tags">
 								<p>
-							Receiving ISHKS 2019 Best Hip Paper award from Dr. Arun Mullaji
+									Receiving ISHKS 2019 Best Hip Paper award from Dr. Arun Mullaji
 								</p>
 							</div>
 						</div><!-- /.item-desc -->
@@ -521,7 +642,8 @@
 									Lorem ipsum dolor assumenda minima sapiente eius cum
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 element-item staff" data-category="staff">
 						<img class="img-responsive center-block" src="assets/img/staff1.jpg" alt="Image">
@@ -534,22 +656,23 @@
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 								</p>
 							</div>
-						</div>--><!-- /.item-desc -->
+						</div>-->
+						<!-- /.item-desc -->
 					</div>
 				</div> <!-- isotope -->
 			</div> <!-- row -->
 		</div>
 	</section>
-	<br/>
-	<br/>
-	<br/><br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/><br/>
-	<br/>
-	<br/>
+	<br />
+	<br />
+	<br /><br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br /><br />
+	<br />
+	<br />
 	<div class="elfsight-app-6d02fe1d-495a-46c0-8012-c90b39675d79"></div>
 	<section id="footer">
 		<div class="container">
@@ -600,6 +723,7 @@
 	</section>
 
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
 	<script type="text/javascript" src="assets/js/wow.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
@@ -647,8 +771,85 @@
 			// 		$('.default-gallery-btn').removeClass("active");  
 			// 	}
 			// });
-			
+
 		});
+		var topOffset = new Array();
+
+		function scrollFunction(){
+
+			var scrollHeight = $(window).scrollTop();
+			var headerCounter = 0;
+			var scrolled      = 0;
+			var headerItems   = $('.fixed-header').length;
+
+			$('.fixed-header').each(function(index, el){
+
+				var elementHeight = $(this).outerHeight();
+
+				var nextElementHeight = 0;
+				var nextElement;
+
+				if(index !== $('.fixed-header').length - 1){
+					nextElementHeight = $('.fixed-header').eq(index + 1).outerHeight();
+					nextElement       = $('.fixed-header').eq(index + 1);
+				}
+
+				if(scrollHeight >= topOffset[headerCounter]
+						&& (scrollHeight < topOffset[headerCounter + 1] || headerCounter == headerItems-1)){
+
+					scrolled = 1;
+
+					if(scrollHeight >= topOffset[headerCounter + 1] - elementHeight){
+						$(this).css({
+							position: "fixed",
+							top: - (scrollHeight - (topOffset[headerCounter + 1] - elementHeight))
+						});
+						nextElement.css({
+							position: "fixed",
+							top: topOffset[headerCounter + 1] - scrollHeight
+						});
+						$('body').css({
+							"padding-top": elementHeight + nextElementHeight
+						});
+						return false;
+					}
+					else{
+						$(this).css({
+							position: "fixed",
+							top: 0
+						});
+						nextElement.css({
+							position: "static",
+						});
+						$('body').css({
+							"padding-top": elementHeight
+						});
+					}
+
+				}
+				else{
+					$(this).css({
+						position: "static"
+					});
+				}
+
+				headerCounter++;
+			});
+
+			if(scrolled == 0){
+				$('body').css({
+					"padding-top": 0
+				});
+			}
+		}
+
+		$(function(){
+			$('.fixed-header').each(function(){
+				topOffset.push($(this).offset().top);
+			});
+		});
+
+		$(window).scroll(scrollFunction);
 	</script>
 
 </body>

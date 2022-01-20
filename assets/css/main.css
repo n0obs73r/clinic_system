@@ -390,7 +390,7 @@ section.starting-text
 }
 .welcome
 {
-    padding: 48px 68px;
+    padding: 35px 68px;
     text-align: center;
 }
 .welcome-title
@@ -532,6 +532,9 @@ section.new-heading
     margin-bottom: 20px;
     border: 10px solid rgb(131, 129, 137);
 }
+.left, .right {
+    margin-top: 150px;
+}
 /* ========================================= 2. Service=========================================== */
  .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
      color: #555;
@@ -567,7 +570,7 @@ section.new-heading
 }
 .featured-service-content
 {
-    margin: 40px 0px;
+    padding: 40px 0px;
 }
 .service .service-icon i
 {
@@ -707,7 +710,7 @@ section.new-heading
 }
 .doctor-list
 {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .doctor-meta
 {
@@ -1420,3 +1423,45 @@ li.socials-icons
  .bg-color{
   background-color: rgba(75,172,198,255)
  }
+
+ .header-text {
+     font-family: 'Carlito', serif;
+     font-size: 35px;
+     font-weight: bold;
+     color: white;
+ }
+
+ .header-all {
+     padding-top: 35px;
+     padding-bottom: 35px;
+ }
+
+ .card {
+     padding: 30px;
+     margin: 10px;
+ }
+
+
+/*fixed header*/
+
+ .spacer {
+     height:200px;
+     background:#f00;
+     opacity:.5;
+     border-top:#d22 5px solid;
+     width: 100%;
+     z-index:-1;
+ }
+ .fixed-header {
+    margin-top: 69px;
+     width: 100%;
+     z-index: 500;
+     background-color: rgba(75, 172, 198, 255);
+ }
+
+ /*sticky navbar*/
+
+ .fixed {
+     position: fixed;
+     top:0; left:0;
+     width: 100%; }

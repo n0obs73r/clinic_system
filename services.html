@@ -10,23 +10,37 @@
 		<title>Bangalore Hip and Knee Clinic ServicesPage</title>
 
 
-	    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@400;800;900&family=Ubuntu&display=swap" rel="stylesheet">
 	    <!-- <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
 	    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700' rel='stylesheet' type='text/css'> -->
 	    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
 	    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600' rel='stylesheet' type='text/css'>
-	    
+
+
 		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.transitions.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/fonts/carlito/stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
 		<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 		<style>
 	/* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 	@media (min-width: 1281px) {
+	.centertest1
+	{
+	}
 	#movelogo
 	{
     position:relative;
@@ -43,6 +57,9 @@
   ##Screen = B/w 1025px to 1280px
 */
 	@media (min-width: 1025px) and (max-width: 1280px) {
+	.centertest1
+	{
+	}
 	#movelogo
 	{
     position:relative;
@@ -59,6 +76,9 @@
   ##Screen = B/w 768px to 1024px
 */
 	@media (min-width: 768px) and (max-width: 1024px) {
+	.centertest1
+	{
+	}
 	#movelogo
 	{
     font-size: 20px;
@@ -75,6 +95,9 @@
   ##Screen = B/w 768px to 1024px
 */
 	@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.centertest1
+	{
+	}
 	#movelogo
 	{
     font-size: 20px;
@@ -91,6 +114,11 @@
   ##Screen = B/w 481px to 767px
 */
 	@media (min-width: 481px) and (max-width: 767px) {
+	.centertest1
+	{
+	position:relative;
+	left:165px;
+	}
 	#bannertest
 	{
     position:relative;
@@ -113,6 +141,11 @@
   ##Screen = B/w 320px to 479px
 */	
 	@media (min-width: 320px) and (max-width: 480px) {
+	.centertest1
+	{
+	position:relative;
+	left:60px;
+	}
 	#bannertest
 	{
 	position:relative;
@@ -133,27 +166,27 @@
 	</style>
 	</head>
 
-	<body class="bg-color">
+	<body class="bg-color" style="overflow-x:hidden;">
 		<section class= "navs">
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   				<div class="container-fluid">
     				<!-- Brand and toggle get grouped for better mobile display -->
     				<div class="navbar-header">
-      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="border-color:#46a1b4;">
 					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
+					        <span class="icon-bar" style="background-color:#FFFFFF;"></span>
+					        <span class="icon-bar" style="background-color:#FFFFFF;"></span>
+					        <span class="icon-bar" style="background-color:#FFFFFF;"></span>
 	      				</button>
-	      				<a class="navbar-brand logo" id="movelogo" href="#">
-	      					<span><img src="assets/img/clinicactuallogo.png" class="actuallogo"></span>
-	      				</a>
+	      			<a class="navbar-brand logo" id="movelogo" href="#">
+                    <span><img src="assets/img/A.png" class="actuallogo"></span>
+                </a>
 	    			</div>
 		
 		    		<!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				    	<ul class="nav navbar-nav navbar-right">
-					        <li><a href="index.html">Home</a></li>
+					        <li><a href="index.php">Home</a></li>
 							<li><a href="aboutus.html">About Us</a></li>
 							<li><a href="doctors.html">My Profile</a></li>
 					        <li class="active"><a href="#">Services</a></li>
@@ -161,605 +194,345 @@
 							<li><a href="gallery.html">Gallery</a></li>
 							<!--<li><a href="faq.html">FAQs</a></li> -->
 							<li><a href="patientstories.html">Patient Stories</a></li>
-							<li><a href="testimonials.html">Testimonials</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="testimonials.php">Testimonials</a></li>
+							<li><a href="contact.php">Contact Us</a></li>
 				      	</ul>
 				    </div><!-- navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
 		</section>
-
-
-		<section class="service-title text-center" id="bannertest">
-			<div class="service-wrapper">
-				<div class="container">
-					<div class= "row">
-						<h2 class="headline">Featured Services</h2>
-					</div>
-					<div class="row">
-						<div class="sub-headline">
-							<!--<p>Lorem ipsum dolor sit amet, consectetur </p>-->
+<br/>
+<br/>
+<section class="header fixed-header">
+			<div class="container">
+				<div class="row"  style="margin: 5px 40px;">
+					<div class="col-sm-2">
+						<div style="display: flex; ">
+							<img style="border-radius: 100%; width: 120px; min-height: 100px;" class="centertest1" src="assets/img/clinicactuallogo.png" alt="">
 						</div>
-					</div>	
+					</div>
+
+					<div class="col-sm-10">
+						<div class="row text-center header-all">
+							<div class="service-icon text-center header-text">
+								<h2 style="text-decoration:none;color:white;">Bangalore Hip and Knee Clinic</h2>
+							</div>
+						</div>
+
+					</div>
 				</div>
 			</div>
 		</section>
-
-		<section class= "featured-service-content">
-			<div class="container">
-				<div class="row">
+		<br/>
+		<br/>
+<section class= "featured-service-content">
+			<div class="row">
 				<div class="about-service">
-				<h3 class="text-center">Featured Services</h3>
-				<p class="text-center" style="color: white">
-		        Speciality Orthopaedic care for people with Hip and Knee ailments
-		        				</p>
-					<!--<div class="col-sm-4 service">
-						<div class="row text-center">
-							<div class="service-icon text-center">
-		        				<i class="fa fa-eye fa-5x"></i>
-		        			</div>
+					<h3 class="text-center" style="text-decoration:underline;">Featured Services</h3>
+					<div class="container">
+						<div class="row" style="margin: 40px;">
+							<h3 class="text-center" style="color:orange;background-color:white;text-align:center;">The Hip</h3>
+							<div class="col-sm-2">
+								<div style="display: flex; ">
+									<img style=" width: 150px; min-height: 100px; border-radius: 100% 0 0 100%" src="assets/img/hipimage.png" alt="">
+								</div>
+							</div>
+
+							<div class="col-sm-10">
+
+								<div class="row text-center header-all">
+									<div class="service-icon text-center header-text">
+
+										<p class="text-center "  style="color: white">
+											&#8226; Total Hip Replacement<br/>
+											&#8226; Hip Hemiarthroplasty (Partial Hip Replacement)<br/>
+											&#8226; Revision Total Hip Replacement<br/>
+											&#8226; Fracture Fixation Surgeries around the Hip<br/>
+											&#8226; Hip Arthroscopy Procedures
+										</p>
+									</div>
+								</div>
+
+							</div>
 						</div>
-		        			
-	        			<div class="row text-center">
-	        				<div class="about-service">
-		        				<h3 class="text-center">Diagnostic Imaging</h3>
-		        				<p class="text-center">
-		        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                       		quis nostrud 
-		        				</p>
-		        			</div>
-	        			</div>
-		 						
-	        		</div>	col-sm-4 -->
+						<div class="row" style="margin: 40px;">
+							<h3 class="text-center" style="color:orange;background-color:white;text-align:center;">The Knee</h3>
+							<div class="col-sm-2">
+								<div style="display: flex; ">
+									<img style=" width: 150px; min-height: 100px; border-radius: 0 100% 100% 0" src="assets/img/kneeimage.png" alt="">
+								</div>
+							</div>
 
-	        		<div class="col-sm-6 service">
-	        			<div class="row text-center">
-	        				<div class="service-icon text-center">
-		        				<img src="assets/img/hipimage.png">
-		        			</div>
-	        			</div>
-		        			
-	        			<div class="row text-center">
-	        				<div class="about-service">
-		        				<h3 class="text-center">The Hip</h3>
-		        				<p class="text-center "  style="color: white">
-		        					&#8226; Total Hip Replacement<br/>
-                                    &#8226; Hip Hemiarthroplasty (Partial Hip Replacement)<br/>
-                                    &#8226; Revision Total Hip Replacement<br/>
-                                    &#8226; Fracture Fixation Surgeries around the Hip<br/>
-                                    &#8226; Hip Arthroscopy Procedures
-		        				</p>
-		        			</div>
-	        			</div>
-		        			
-	        		</div> 	<!-- col-sm-4 -->
-	        		
-	        		<div class="col-sm-6 service">
-	        			<div class="row text-center">
-	        				<div class="service-icon text-center">
-		        				<img src="assets/img/kneeimage.png">
-		        			</div>
-	        			</div>
-		        			
-	        			<div class="row text-center">
-	        				<div class="about-service">
-		        				<h3 class="text-center">The Knee</h3>
-		        				<p class="text-center"  style="color: white">
-		        					&#8226; Total Knee Replacement<br/>
-&#8226; Unicondylar Knee Replacement (Partial Knee Replacement)<br/>
-&#8226; Revision Total Knee Replacement Surgeries<br/>
-&#8226; Knee Arthroscopy for  Ligament Reconstructions <br/>
-        (ACL & PCL Reconstrctions, Menisceal Stabilization / Balancing, Menisceal Reapir)<br/>
-&#8226; Knee Arthroscopy for Cartilage Procedures <br/>
-        (Osteochondral  Autograft / Allograft Transplantation – OATs, Microfracture, Drilling, Abrasion Arthroplasty)<br/>
-&#8226; Fracture Fixation Surgeries around the Knee
+							<div class="col-sm-10">
+								<div class="row text-center header-all">
+									<div class="service-icon text-center header-text">
 
-		        				</p>
-		        			</div>
-	        			</div>
-		        			
-	        		</div>	<!-- col-sm-4 -->
-	        	
-	        		<!--<div class="col-sm-4 service">
-	        			<div class="row text-center">
-	        				<div class="service-icon text-center">
-		        				<i class="fa fa-ambulance fa-5x"></i>
-		        			</div>
-	        			</div>
-		        			
-	        			<div class="row text-center">
-	        				<div class="about-service">
-		        				<h3 class="text-center">Emergency Services</h3>
-		        				<p class="text-center">
-		        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                       		quis nostrud 
-		        				</p>
-		        			</div>
-	        			</div>
-		        			
-	        		</div>	col-sm-4 -->
-	        		<!--<div class="col-sm-4 service">
-	        			<div class="row text-center">
-	        				<div class="service-icon text-center">
-		        				<i class="fa fa-tint fa-5x"></i>
-		        			</div>
-	        			</div>
-		        			
-	        			<div class="row text-center">
-	        				<div class="about-service">
-		        				<h3 class="text-center">Transplant Services</h3>
-		        				<p class="text-center">
-		        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                       		quis nostrud 
-		        				</p>
-		        			</div>
-	        			</div>
-		        			
-	        		</div>	 col-sm-4 -->
-	        		<!--<div class="col-sm-4 service">
-	        			<div class="row text-center">
-	        				<div class="service-icon text-center">
-		        				<i class="fa fa-clock-o fa-5x"></i>
-		        			</div>
-	        			</div>
-	        			<div class="row text-center">
-		        			<div class="about-service">
-		        				<h3 class="text-center">24 Hours Service</h3>
-		        				<p class="text-center">
-		        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                       		quis nostrud 
-		        				</p>
-		        			</div>
-		        		</div>
-	        		</div>	 col-sm-4 -->
+										<p class="text-center"  style="color: white">
+											&#8226; Total Knee Replacement<br/>
+											&#8226; Unicondylar Knee Replacement (Partial Knee Replacement)<br/>
+											&#8226; Revision Total Knee Replacement Surgeries<br/>
+											&#8226; Knee Arthroscopy for  Ligament Reconstructions <br/>
+											(ACL & PCL Reconstrctions, Menisceal Stabilization / Balancing, Menisceal Reapir)<br/>
+											&#8226; Knee Arthroscopy for Cartilage Procedures <br/>
+											(Osteochondral  Autograft / Allograft Transplantation – OATs, Microfracture, Drilling, Abrasion Arthroplasty)<br/>
+											&#8226; Fracture Fixation Surgeries around the Knee
+
+										</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
 				</div>
+				<!--			</div>-->
+				<!--			<div class="container">-->
+				<!--				<div class="row">-->
+				<!--				<div class="about-service">-->
+				<!--				<h3 class="text-center">Featured Services</h3>-->
+				<!--					&lt;!&ndash;<div class="col-sm-4 service">-->
+				<!--						<div class="row text-center">-->
+				<!--							<div class="service-icon text-center">-->
+				<!--		        				<i class="fa fa-eye fa-5x"></i>-->
+				<!--		        			</div>-->
+				<!--						</div>-->
+				<!--		        			-->
+				<!--	        			<div class="row text-center">-->
+				<!--	        				<div class="about-service">-->
+				<!--		        				<h3 class="text-center">Diagnostic Imaging</h3>-->
+				<!--		        				<p class="text-center">-->
+				<!--		        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod-->
+				<!--		                       		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,-->
+				<!--		                       		quis nostrud -->
+				<!--		        				</p>-->
+				<!--		        			</div>-->
+				<!--	        			</div>-->
+				<!--		 						-->
+				<!--	        		</div>	col-sm-4 &ndash;&gt;-->
+
+				<!--	        		<div class="col-sm-6 service">-->
+				<!--	        			<div class="row text-center">-->
+				<!--	        				<div class="service-icon text-center">-->
+				<!--		        				<img src="assets/img/hipimage.png">-->
+				<!--		        			</div>-->
+				<!--	        			</div>-->
+				<!--		        			-->
+				<!--	        			<div class="row text-center">-->
+				<!--	        				<div class="about-service">-->
+				<!--		        				<h3 class="text-center">The Hip</h3>-->
+				<!--		        				<p class="text-center "  style="color: white">-->
+				<!--		        					&#8226; Total Hip Replacement<br/>-->
+				<!--                                    &#8226; Hip Hemiarthroplasty (Partial Hip Replacement)<br/>-->
+				<!--                                    &#8226; Revision Total Hip Replacement<br/>-->
+				<!--                                    &#8226; Fracture Fixation Surgeries around the Hip<br/>-->
+				<!--                                    &#8226; Hip Arthroscopy Procedures-->
+				<!--		        				</p>-->
+				<!--		        			</div>-->
+				<!--	        			</div>-->
+				<!--		        			-->
+				<!--	        		</div> 	&lt;!&ndash; col-sm-4 &ndash;&gt;-->
+				<!--	        		-->
+				<!--	        		<div class="col-sm-6 service">-->
+				<!--	        			<div class="row text-center">-->
+				<!--	        				<div class="service-icon text-center">-->
+				<!--		        				<img src="assets/img/kneeimage.png">-->
+				<!--		        			</div>-->
+				<!--	        			</div>-->
+				<!--		        			-->
+				<!--	        			<div class="row text-center">-->
+				<!--	        				<div class="about-service">-->
+				<!--		        				<h3 class="text-center">The Knee</h3>-->
+				<!--		        				<p class="text-center"  style="color: white">-->
+				<!--		        					&#8226; Total Knee Replacement<br/>-->
+				<!--&#8226; Unicondylar Knee Replacement (Partial Knee Replacement)<br/>-->
+				<!--&#8226; Revision Total Knee Replacement Surgeries<br/>-->
+				<!--&#8226; Knee Arthroscopy for  Ligament Reconstructions <br/>-->
+				<!--        (ACL & PCL Reconstrctions, Menisceal Stabilization / Balancing, Menisceal Reapir)<br/>-->
+				<!--&#8226; Knee Arthroscopy for Cartilage Procedures <br/>-->
+				<!--        (Osteochondral  Autograft / Allograft Transplantation – OATs, Microfracture, Drilling, Abrasion Arthroplasty)<br/>-->
+				<!--&#8226; Fracture Fixation Surgeries around the Knee-->
+
+				<!--		        				</p>-->
+				<!--		        			</div>-->
+				<!--	        			</div>-->
+				<!--		        			-->
+				<!--	        		</div>	&lt;!&ndash; col-sm-4 &ndash;&gt;-->
+
+				<!--<div class="col-sm-4 service">
+                    <div class="row text-center">
+                        <div class="service-icon text-center">
+                            <i class="fa fa-ambulance fa-5x"></i>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="about-service">
+                            <h3 class="text-center">Emergency Services</h3>
+                            <p class="text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                   quis nostrud
+                            </p>
+                        </div>
+                    </div>
+
+                </div>	col-sm-4 -->
+				<!--<div class="col-sm-4 service">
+                    <div class="row text-center">
+                        <div class="service-icon text-center">
+                            <i class="fa fa-tint fa-5x"></i>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="about-service">
+                            <h3 class="text-center">Transplant Services</h3>
+                            <p class="text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                   quis nostrud
+                            </p>
+                        </div>
+                    </div>
+
+                </div>	 col-sm-4 -->
+				<!--<div class="col-sm-4 service">
+                    <div class="row text-center">
+                        <div class="service-icon text-center">
+                            <i class="fa fa-clock-o fa-5x"></i>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="about-service">
+                            <h3 class="text-center">24 Hours Service</h3>
+                            <p class="text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                   quis nostrud
+                            </p>
+                        </div>
+                    </div>
+                </div>	 col-sm-4 -->
+			</div>
 			</div>
 			</div>
 		</section>
-<!--<section class= "starting-text">
-      		<div class="container">
-      			<div class="row">
-      				<div class="welcome">
-        				<h2 class="welcome-title">Additional Services</h2>
-        				<p class="welcome-txt">Upper limb ailments requiring Joint Replacement & Arthroscopy surgeries(Shouler & Elbow)
-<br/>Deformity corrections 
-<br/>Trauma care (Fracture Fixation Surgeries around the Shoulder, Elbow & Wrist)
-</p>
-		        		<button class="welcome-btn">Read More</button>-->
-        		<!--	</div>
-        		</div>
-      		</div>
-	  	</section>
-<br/>
-<br/>
-<br/>
-<br/>
-<section class= "starting-text">
-      		<div class="container">
-      			<div class="row">
-      				<div class="welcome">
-        				<h2 class="welcome-title">Diagnostic Modalities</h2>
-        				<p class="welcome-txt">Digital X-Ray<br/>
-CT Scan<br/>
-High Quality Musculoskeletal Ultrasound Imaging<br/>
-State of the art Pysiotherapy services<br/>
-     Physio Tattva (Link)<br/>
-Laboratory facilities
-
-</p>
-		        		<button class="welcome-btn">Read More</button>-->
-        		<!--	</div>
-        		</div>
-      		</div>
-	  	</section>
-<br/>
-<br/> -->
-		<section class="special-service-content">
+		<section class="header fixed-header">
 			<div class="container">
+				<div class="row"  style="margin: 5px 40px;">
+					<div class="col-sm-2">
+						<div style="display: flex; ">
+							<img style="border-radius: 100%; width: 120px; min-height: 100px;" class="centertest1" src="assets/img/clinicactuallogo.png" alt="">
+						</div>
+					</div>
+
+					<div class="col-sm-10">
+						<div class="row text-center header-all">
+							<div class="service-icon text-center header-text">
+								<h2 style="text-decoration:none;color:white;">Bangalore Hip and Knee Clinic</h2>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+<section id="featured-services">
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="container text-center">
+			<h2 class="section-heading" style="padding-left: 55px;text-decoration:underline;"> Featured Services </h2>
+
+				<div class="row text-center">
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="font-size: 25px; text-align: left; margin: 20px auto">
+						<ul style="color:white; width: 100%">Upper limb alignments requiring</ul>
+						<li style="color: white"> Joint Replacement & Arthroscopy surgeries (Shoulder & Elbow)</li>
+						<li style="color: white"> Deformity corrections</li>
+						<li style="color: white"> Trauma care (Fracture Fixation Surgeries around the Shoulder, Elbow & Wrist)</li>
+
+
+					</div>
+					</div>
+
+				</div>
+
+			</div>
+			<br>
+			<br>
+			<br>
+		</section>
+		<section id="Diagonastic-modalities">
+			<div class="container">
+<h2 class="section-heading" style="padding-left: 55px;text-align:center;text-decoration:underline;"> Diagnostic Modalities </h2>
+
 				<div class="row">
-					<div class="col-md-8">
-						<div class="special-service">
-							<h2><span>Special Services</span></h2>
-							<div class="service-tab">
-								<ul class="nav nav-tabs" role="tablist">
-	  								<li class="active">
-	  									<a href="#all" role="tab" data-toggle="tab">All</a>
-	  								</li>
-									<li>
-										<a href="#dental" role="tab" data-toggle="tab">Featured Services</a>
-									</li>
-									<li>
-										<a href="#diagnostic" role="tab" data-toggle="tab">Diagnostic Modalities</a>
-									</li>
-									<!--<li>
-										<a href="#rehabilitation" role="tab" data-toggle="tab">Rehabilitation Serivce</a>
-									</li>
-									<li>
-										<a href="#donor" role="tab" data-toggle="tab">Donation Serivce</a>
-									</li>	-->
-								</ul>
 
-							<div id="myTabContent" class="tab-content">
-							      	<div class="tab-pane fade in active" id="all">
-
-							        	<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/diagnostic1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Upper limb ailments requiring Joint Replacement & Arthroscopy surgeries(Shouler & Elbow)</h3>
-							        		<!--	<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-
-							        	<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/dental1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Upper limb ailments requiring Deformity corrections </h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-										
-										<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/dental1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Upper limb ailments requiring Trauma care (Fracture Fixation Surgeries around the Shoulder, Elbow & Wrist)</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-
-										<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/donor1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Digital X-Ray</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div> 
-
-							        	<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/rehabilitation2.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>CT Scan</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-										<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/dental1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>High Quality Musculoskeletal Ultrasound Imaging</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/dental2.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>State of the art Pysiotherapy services
-     Physio Tattva</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-										<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/diagnostic1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Laboratory facilities</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-										
-							      	</div>
-									
-							      	<div class="tab-pane fade" id="dental">
-							        <div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/diagnostic1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Upper limb ailments requiring Joint Replacement & Arthroscopy surgeries(Shouler & Elbow)</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-
-							        	<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/dental1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Deformity corrections </h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-										
-										<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/dental1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Trauma care (Fracture Fixation Surgeries around the Shoulder, Elbow & Wrist)</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>	
-							      	</div>
-							      	<div class="tab-pane fade" id="diagnostic">
-
-							        	<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/donor1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Digital X-Ray</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div> 
-
-							        	<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/rehabilitation2.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>CT Scan</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-										<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/dental1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>High Quality Musculoskeletal Ultrasound Imaging</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/dental2.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>State of the art Pysiotherapy services
-     Physio Tattva (Link)</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-										<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/diagnostic1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Laboratory facilities</h3>
-							        			<!--<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>-->
-							        			<!--<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>-->
-							        			
-							        		</div>
-							        	</div>
-
-							        	<!--<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/diagnostic2.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Women's Diagnostic Imaging In A Comforting Environment.</h3>
-							        			<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>
-							        			<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>
-							        			
-							        		</div>
-							        	</div>-->
-
-							      	</div>
-							      <!--	<div class="tab-pane fade" id="rehabilitation">
-
-							        	<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/rehabilitation1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Enhanced Rehabilitation</h3>
-							        			<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>
-							        			<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>
-							        			
-							        		</div>
-							        	</div>
-
-							        	<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/rehabilitation2.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Elderly Care</h3>
-							        			<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>
-							        			<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>
-							        			
-							        		</div>
-							        	</div>
-
-							      	</div>
-							      	<div class="tab-pane fade" id="donor">
-
-							        	<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/donor1.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>You're Welcome To Donate Our Clinic</h3>
-							        			<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>
-							        			<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>
-							        			
-							        		</div>
-							        	</div>
-
-							        	<div class="row service-item">
-							        		<div class="col-md-5">
-							        			<img class="img-responsive center-block" src="assets/img/donor2.jpg" alt="">
-							        		</div>
-							        		<div class="col-md-7">
-							        			<h3>Blood Donation - You can also save life</h3>
-							        			<p>
-							        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae earum quod aliquid nulla ab obcaecati aut quae, illum voluptates maxime. Mollitia eius voluptas laboriosam odio quod quisquam aliquid quas obcaecati.
-							        			</p>
-							        			<a href="#" class="service-rm-btn btn btn-primary">
-											View Full Description <i class="fa fa-caret-right"></i></a>
-							        			
-							        		</div>
-							        	</div>
-
-							      	</div> -->
-							    </div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="card">
+						<div class="card-body" style="font-size: 20px; color: white; text-align: center; margin-top: 20px; font-style: oblique">
+								Digital X-Ray
+							</div>
+							<br/>
+							<div class="card-header">
+								<img style="width: 100%; border-radius: 2%" src="assets/img/service1.jpg" alt="">
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class= "appointment  appointment-box">
-
-		                    <div class="header text-center">
-		                        <h2>Make an Appointment</h2>
-		                       	<a href="tel:9092304092" class="number">
-			                       		<i class="fa fa-phone fa-fw"></i>
-										+91 90087 14092
-			                       	</a>
-		                        <span class="or">OR</span>
-		                    </div>
-
-							<!-- form of appointment -->
-							<div class="row">
-								<form method="post" action="#">
-									<div class= "form">
-										<div class="input-group margin-bottom-sm col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-										 	<input class="form-control" type="text" placeholder="Full Name *" required>
-										</div>
-										<div class="input-group margin-bottom-sm col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-										 	<input class="form-control" type="text" placeholder="Email Address *" required>
-										</div>
-										<!--<div class="input-group margin-bottom-sm col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-										 	<input class="form-control" type="text" placeholder="Appointment Date *" required>
-										</div> -->
-										<div class="input-group margin-bottom-sm col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-										 	<input class="form-control" type="text" placeholder="Mobile Number *" required>
-										</div>
-									</div>
-									<div class="input-group margin-bottom-sm col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-										<textarea class="form-control" rows="6" placeholder="Your Problem *" required></textarea>
-									</div>
-									<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-										<input class="btn btn-primary send" type="submit" value="Send">
-									</div>
-								</form>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="card">
+						<div class="card-body" style="font-size: 20px; color: white; text-align: center; margin-top: 20px; font-style: oblique">
+								CT Scan
 							</div>
-							<!-- end of form -->
-						</div><!-- end of appointment-->
+							<br/>
+							<div class="card-header">
+								<img style="width: 100%; border-radius: 2%" src="assets/img/service1.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="card">
+							<div class="card-body" style="font-size: 20px; color: white; text-align: center; margin-top: 20px; font-style: oblique">
+								High Quality Musculoskeletal Ultrasound Imaging
+							</div>
+							<br/>
+							<div class="card-header">
+								<img style="width: 100%; border-radius: 2%" src="assets/img/service1.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="card">
+						<div class="card-body" style="font-size: 20px; color: white; text-align: center; margin-top: 20px; font-style: oblique">
+								Laboratory facilities
+							</div>
+							<br/>
+							<div class="card-header">
+								<img style="width: 100%; border-radius: 2%" src="assets/img/service1.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="card">
+						<div class="card-body" style="font-size: 20px; color: white; text-align: center; margin-top: 20px; font-style: oblique">
+								State of the art Pysiotherapy services - Physio Tattva
+							</div>
+							<br/>
+							<div class="card-header">
+								<img style="width: 100%; border-radius: 2%" src="assets/img/service1.jpg" alt="">
+							</div>
+						</div>
 					</div>
 				</div>
+
 			</div>
 		</section>
 <br/>
 <br/>
 <div class="elfsight-app-6d02fe1d-495a-46c0-8012-c90b39675d79"></div>
-		<section id="footer">
+		<section id="footer" style="width:103%;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
@@ -801,6 +574,7 @@ Laboratory facilities
 			</div>
 		</section>
 		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 		<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
 		<script type="text/javascript" src="assets/js/wow.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
@@ -816,6 +590,84 @@ Laboratory facilities
 				e.preventDefault()
 				$(this).tab('show')
 			})
+
+			var topOffset = new Array();
+
+			function scrollFunction(){
+
+				var scrollHeight = $(window).scrollTop();
+				var headerCounter = 0;
+				var scrolled      = 0;
+				var headerItems   = $('.fixed-header').length;
+
+				$('.fixed-header').each(function(index, el){
+
+					var elementHeight = $(this).outerHeight();
+
+					var nextElementHeight = 0;
+					var nextElement;
+
+					if(index !== $('.fixed-header').length - 1){
+						nextElementHeight = $('.fixed-header').eq(index + 1).outerHeight();
+						nextElement       = $('.fixed-header').eq(index + 1);
+					}
+
+					if(scrollHeight >= topOffset[headerCounter]
+							&& (scrollHeight < topOffset[headerCounter + 1] || headerCounter == headerItems-1)){
+
+						scrolled = 1;
+
+						if(scrollHeight >= topOffset[headerCounter + 1] - elementHeight){
+							$(this).css({
+								position: "fixed",
+								top: - (scrollHeight - (topOffset[headerCounter + 1] - elementHeight))
+							});
+							nextElement.css({
+								position: "fixed",
+								top: topOffset[headerCounter + 1] - scrollHeight
+							});
+							$('body').css({
+								"padding-top": elementHeight + nextElementHeight
+							});
+							return false;
+						}
+						else{
+							$(this).css({
+								position: "fixed",
+								top: 0
+							});
+							nextElement.css({
+								position: "static",
+							});
+							$('body').css({
+								"padding-top": elementHeight
+							});
+						}
+
+					}
+					else{
+						$(this).css({
+							position: "static"
+						});
+					}
+
+					headerCounter++;
+				});
+
+				if(scrolled == 0){
+					$('body').css({
+						"padding-top": 0
+					});
+				}
+			}
+
+			$(function(){
+				$('.fixed-header').each(function(){
+					topOffset.push($(this).offset().top);
+				});
+			});
+
+			$(window).scroll(scrollFunction);
 		</script>
 		
 	</body>
